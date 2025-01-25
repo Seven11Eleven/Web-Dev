@@ -1,0 +1,10 @@
+.apples{
+    color:red;
+    font-size: 2rem;
+}
+
+.bananas{
+    color: yellow;
+    font-size: 2rem;
+    text-shadow: black 0 0 10px;
+}
