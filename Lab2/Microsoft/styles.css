@@ -1,0 +1,134 @@
+.logo{
+    margin-left: 50px;
+    margin-top: -5px;
+}
+
+.top{
+    margin-top: -10px;
+}
+
+.blue_img{
+    margin-top: 30px;
+}
+
+.productstxt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: -1px;
+    margin-left: 200px;
+}
+
+.text{
+    display: flex;
+    margin-top: -45px;
+    margin-left: 190px;
+    padding-left: -24px;
+    font-size: 14px;
+    font-family: Arial,sans-serif;
+    text-decoration: none;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+
+.toplink{
+    color: black;
+}
+.toplink:hover{
+    text-decoration: underline;
+}
+
+.firsth{
+    font-size: 30px;
+    margin-top: 200px;
+    font-family: Arial;
+}
+
+.foroneperson{
+    background-color: rgba(52,110,208,255);
+    color: white;
+    border: none;
+    border: 1px solid #0067b8;
+    border-radius: 3px;
+    background-color: #0067b8;
+    height: 40px;
+    width: 135px;
+}
+
+#for_one_people{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial;
+}
+
+#main_img{
+    width: 1263px;
+    margin-left: -8px;
+    margin-top: -10px;
+}
+
+.blue{
+    margin-top: -550px;
+    margin-left: 90px;
+}
+
+.forsixperson{
+    margin-top: -24px;
+}
+.forsixperson:hover{
+    text-decoration: underline;
+}
+
+#sixpeople{
+    margin-left: 150px;
+    margin-bottom: 100px;
+    text-decoration: none;
+    color: black;
+}
+
+.boxes{
+    display: flex;
+    margin-top: 300px;
+    margin-left: 55px;
+    font-family: 'Arial Narrow', Arial;
+}
+
+.second_box{
+    margin-left: 30px;
+}
+
+.third_box{
+    margin-left: 30px;
+}
+
+.fourth_box{
+    margin-left: 30px;
+}
+
+.box_links{
+    color: #0067c0;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+#officeid{
+    margin-left: 20px;
+}
+
+#windowsid{
+    margin-left: 20px;
+}
+
+#helpid{
+    margin-left: 20px;
+}
+
+#productsid{
+    margin-left: 299px;
+}
+
+#windowsid{
+    margin-left: 20px;
+}
