@@ -1,0 +1,36 @@
+.categories {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+  justify-content: flex-start;
+  padding: 10px 20px;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 63px;
+  height: 63px;
+  color: #0089d0;
+  cursor: pointer;
+  text-decoration: none;
+  border-bottom: 2px solid black;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.categories::-webkit-scrollbar {
+  display: none;
+}
+
+.category-item {
+  padding: 0 15px;
+  border: 1px solid #e5e5e5;
+
+  border-radius: 5px;
+  background: #f5f5f5;
+  transition: background 0.3s;
+}
+
+.category-item:hover {
+  background: #ddd;
+}

@@ -1,0 +1,17 @@
+<div>
+  <h1>Онлайн-магазин Kaspi</h1>
+
+  <div class="categories">
+    <div class="category-item" *ngFor="let category of categories" (click)="selectCategory(category)">
+      {{ category }}
+    </div>
+  </div>
+
+  <app-product-list
+    [products]="currentProducts"
+    [likedProducts]="likedProducts"
+    (like)="likeProduct($event)"
+    (remove)="removeProduct($event)"
+    (share)="share($event)">
+  </app-product-list>
+</div>

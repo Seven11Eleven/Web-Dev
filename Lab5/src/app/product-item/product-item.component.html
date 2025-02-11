@@ -1,0 +1,32 @@
+<!--<div class="product-card">-->
+<!--  <img [src]="product.image" [alt]="product.name" />-->
+<!--  <h2>{{ product.name }}</h2>-->
+<!--  <p>{{ product.description }}</p>-->
+<!--  <p>Rating: {{ product.rating }}</p>-->
+<!--  <p>Likes: {{ product.likes }}</p>-->
+<!--  <a [href]="product.link" target="_blank">Check on Kaspi.kz</a>-->
+
+<!--  <div class="actions">-->
+<!--    <button (click)="onLike()" class="like-button">-->
+<!--      {{ product.likes > 0 ? 'Liked' : 'Like' }}-->
+<!--    </button>-->
+<!--    <button (click)="onRemove()">Remove</button>-->
+<!--  </div>-->
+<!--</div>-->
+<div class="product-card">
+  <img [src]="product.image" [alt]="product.name" />
+  <h2>{{ product.name }}</h2>
+  <p>{{ product.description }}</p>
+  <p>Rating: {{ product.rating }}</p>
+  <p>Likes: {{ product.likes }}</p>
+  <a [href]="product.link" target="_blank">Check on Kaspi.kz</a>
+
+  <div class="actions">
+    <button (click)="toggleLike()" [class.liked]="isLiked" class="like-button">
+      {{ isLiked ? 'Liked ❤️' : 'Like 🤍' }}
+    </button>
+    <button (click)="onRemove()">Remove</button>
+    <button (click)="onShare()">Share</button>
+  </div>
+</div>
+
