@@ -1,0 +1,17 @@
+<div class="album-container">
+  <h3>Album Photos</h3>
+
+  <div class="upload-box">
+    <input type="file" (change)="uploadPhoto($event)">
+  </div>
+
+  <div class="photo-grid">
+    <div *ngFor="let photo of photos" class="photo-item">
+      <img [src]="'http://localhost:8080' + photo.url" [alt]="photo.title">
+      <p [title]="photo.title">{{ photo.title.length > 15 ? (photo.title | slice:0:15) + '...' : photo.title }}</p>
+    </div>
+  </div>
+
+
+  <button (click)="goBack()">Return</button>
+</div>
