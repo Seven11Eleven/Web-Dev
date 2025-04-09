@@ -1,0 +1,23 @@
+/* Bootstrap */
+@use 'bootstrap' as *;
+
+body {
+  background-color: #f8f9fa;
+}
+
+.company-list, .company-detail {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card {
+  border: none;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+}

@@ -1,0 +1,24 @@
+.vacancies-wrapper {
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.vacancy-item {
+  background: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+
+  h3 {
+    color: #2c3e50;
+    margin-top: 0;
+  }
+}
+
+.no-vacancies {
+  color: #7f8c8d;
+  font-style: italic;
+}

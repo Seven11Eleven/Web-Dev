@@ -1,0 +1,15 @@
+<div class="vacancies-wrapper">
+  <h2>Вакансии компании</h2>
+
+  <div *ngIf="vacancies.length > 0">
+    <div *ngFor="let vacancy of vacancies" class="vacancy-item">
+      <h3>{{ vacancy.name }}</h3>
+      <p><strong>Описание:</strong> {{ vacancy.description }}</p>
+      <p><strong>Зарплата:</strong> {{ vacancy.salary | number }} ₽</p>
+    </div>
+  </div>
+
+  <div *ngIf="vacancies.length === 0" class="no-vacancies">
+    <p>Пока нет открытых вакансий.</p>
+  </div>
+</div>

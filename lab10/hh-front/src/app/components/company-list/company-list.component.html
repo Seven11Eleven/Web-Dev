@@ -1,0 +1,10 @@
+<div class="company-list">
+  <h2>Companies</h2>
+  <div class="list-group">
+    <a *ngFor="let company of companies"
+       [routerLink]="['/companies', company.id]"
+       class="list-group-item list-group-item-action">
+      {{ company.name }} - {{ company.city }}
+    </a>
+  </div>
+</div>
